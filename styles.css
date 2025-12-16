@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+body {
+        background-color: rgb(248, 248, 248);
+        font-family: sans-serif;
+      }
+      
+      .book-library {
+        background-color: rgb(255, 255, 255);
+      }
+
+      .book-library h2 {
+        text-align: center;
+      }
+
+      .book {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .book img {
+        margin: auto;
+      }
+
+      .book h4 {
+        margin: 0;
+        text-transform: uppercase;
+      }
+
+      .book p {
+        margin: 0;
+        text-align: left;
+        color: rgb(119, 119, 119);
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+
+      button {
+        background: #2ecc71;
+        border: 0;
+        color: aliceblue;
+        padding: 8px;
+        font-weight: 600;
+        border-radius: 5px;
+      }
